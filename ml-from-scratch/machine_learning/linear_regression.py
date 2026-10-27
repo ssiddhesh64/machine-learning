@@ -97,8 +97,6 @@ def plot_results(x, y, predictions, loss_history,
 
 if __name__ == '__main__':
     
-    print("hi")
-    
     rng = np.random.default_rng(0)
     experience = rng.uniform(0, 10, 100)
     salary = 30 + 9 * experience + rng.normal(0, 5, 100)   # in $1000s
